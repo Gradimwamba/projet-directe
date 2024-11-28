@@ -2,6 +2,14 @@
 let message = "Bienvenue dans votre gestionnaire de tâches!"
 console.log(message);
 
+// Créer une variable de nombre entier et l'afficher
+
+let nbTache = [12, 13, 16]
+let nombreGestion = nbTache.length
+
+console.log("nbTache :" + nombreGestion);
+
+
 //Déclaration d'un tableau de tâches
 let nombreDeTâches = []
 let nbTaches = nombreDeTâches.length
