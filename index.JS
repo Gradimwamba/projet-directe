@@ -10,12 +10,21 @@ if (nbTaches===0){
 
     console.log("Aucune tâche à faire.");
     
-}
-else {
+} else {
 
 
     console.log("nombre de tâches :" + nbTaches); 
 }
 
-console.log("nombre de tâches" + nbTaches);
+// console.log("nombre de tâches" + nbTaches);
+
+//Création d'un tableau vide et ajouter une tâche
+
+const taches =[]
+
+taches.push("Faire les courses");
+
+console.log(taches);
+
+
 
