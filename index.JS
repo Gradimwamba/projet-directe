@@ -7,20 +7,16 @@ let nombreDeTâches = []
 let nbTaches = nombreDeTâches.length
 if (nbTaches===0){
 
-
     console.log("Aucune tâche à faire.");
     
 } else {
 
-
     console.log("nombre de tâches :" + nbTaches); 
 }
 
-// console.log("nombre de tâches" + nbTaches);
-
 //Création d'un tableau vide et ajouter une tâche
 
-const taches =[]
+const taches =["Tache 1", "Tache 2", "Tache 3"]
 
 taches.push("Faire les courses");
 
