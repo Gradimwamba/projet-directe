@@ -30,5 +30,10 @@ taches.push("Faire les courses");
 
 console.log(taches);
 
+for (i = 0; i < taches.length; i++) {
+
+    console.log(taches);
+    
+}
 
 
