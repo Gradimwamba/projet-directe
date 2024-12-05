@@ -4,10 +4,10 @@ console.log(message);
 
 // Créer une variable de nombre entier et l'afficher
 
-let nbTache = [12, 13, 16]
+let nbTache = [11,12,13,16]
 let nombreGestion = nbTache.length
 
-console.log("nbTache :" + nombreGestion);
+console.log(nombreGestion);
 
 
 //Déclaration d'un tableau de tâches
@@ -25,15 +25,59 @@ if (nbTaches===0){
 //Création d'un tableau vide et ajouter une tâche
 
 const taches =["Tache 1", "Tache 2", "Tache 3"]
-
 taches.push("Faire les courses");
 
-console.log(taches);
+
+// console.log(taches);
 
 for (i = 0; i < taches.length; i++) {
 
-    console.log(taches);
+    console.log(taches[i]);
     
 }
+
+//La fonction pour ajouter une tâche
+function ajouterTache(values) {
+    let listDetache =[]
+    listDetache.push(values)
+
+   console.log(`faire la lessive : ${listDetache}`);
+   
+}
+
+
+ajouterTache(taches)
+
+//Créer une tâche qui supprime le dernier élément du tableau
+
+let listDetacheAsupprimer =["tache 1","tache2", "tache3", "tache4"]
+
+function supprimerDerniereTache() {
+    let supperssion = listDetacheAsupprimer.pop();
+
+    console.log(listDetacheAsupprimer);
+    
+}
+
+supprimerDerniereTache(listDetacheAsupprimer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
