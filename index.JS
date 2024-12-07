@@ -64,9 +64,14 @@ supprimerDerniereTache(listDetacheAsupprimer)
 //Modification d'une tâche spécifique dans le tableau à l'aide de son index
 
 let modificationDuTableau = ["faire à manger", "dormir à temps", "Etre prudent", "Etre à l'école"]
-modificationDuTableau.splice(2, 1, "aller se coucher")
+modificationDuTableau.splice(1, 1, "aller se coucher")
 
 console.log(modificationDuTableau);
+
+//Crée une fonction qui vérifie les taches dans le tableau
+function verifierTAche(tache) {
+    
+}
 
 
 
