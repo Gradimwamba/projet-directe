@@ -69,9 +69,26 @@ modificationDuTableau.splice(1, 1, "aller se coucher")
 console.log(modificationDuTableau);
 
 //Crée une fonction qui vérifie les taches dans le tableau
-function verifierTAche(tache) {
+function verifierTAche(monTableau, tacheRecherchee) {
+   if (monTableau.includes(tacheRecherchee)) {
+    return "Tache retrouvée";
     
-}
+   } else {
+    return "Tache non trouvée";
+    
+   }
+    
+};
+
+verifierTAche
+
+console.log(monTableau);
+
+
+let monTableau = ["Faire à manger", "Sortir diner", "Faire la laissive"];
+// console.log(verifierTAche(monTableau, "Faire à manger"));
+// console.log(verifierTAche(monTableau, "Aller jouer au foot"));
+
 
 
 
