@@ -28,9 +28,9 @@ const taches =["Tache 1", "Tache 2", "Tache 3"]
 taches.push("Faire les courses");
 
 
-// console.log(taches);
+console.log(taches);
 
-for (i = 0; i < taches.length; i++) {
+for (let i = 0; i < taches.length; i++) {
 
     console.log(taches[i]);
     
@@ -44,7 +44,6 @@ function ajouterTache(values) {
    console.log(`faire la lessive : ${listDetache}`);
    
 }
-
 
 ajouterTache(taches)
 
@@ -69,25 +68,32 @@ modificationDuTableau.splice(1, 1, "aller se coucher")
 console.log(modificationDuTableau);
 
 //Crée une fonction qui vérifie les taches dans le tableau
-function verifierTAche(monTableau, tacheRecherchee) {
-   if (monTableau.includes(tacheRecherchee)) {
-    return "Tache retrouvée";
+function verifierTAche(tache) {
+    const monTableau = ["Faire à manger", "Sortir diner", "Faire la laissive"];
+
+   if (monTableau.includes(tache)) {
+    console.log("Tache retrouvée");
     
    } else {
-    return "Tache non trouvée";
+    console.log("Tache non trouvée");
+    
     
    }
     
 };
 
-verifierTAche
+verifierTAche("Faire à manger");
+verifierTAche("Pas manger");
 
-console.log(monTableau);
+
+console.log();
 
 
-let monTableau = ["Faire à manger", "Sortir diner", "Faire la laissive"];
-// console.log(verifierTAche(monTableau, "Faire à manger"));
-// console.log(verifierTAche(monTableau, "Aller jouer au foot"));
+
+
+
+  
+
 
 
 
