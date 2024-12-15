@@ -75,8 +75,7 @@ function verifierTAche(tache) {
     console.log("Tache retrouvée");
     
    } else {
-    console.log("Tache non trouvée");
-    
+    console.log("Tache non trouvée"); 
     
    }
     
@@ -85,8 +84,22 @@ function verifierTAche(tache) {
 verifierTAche("Faire à manger");
 verifierTAche("Pas manger");
 
+//Afficher toutes les taches avec un indice
 
-console.log();
+function afficherTaches() {
+    const monNouveauTableau =["Payer les dêttes", "Partir à l'école", "Respcter les ainées", "Partir à paris"]
+    for (let i = 0; i < monNouveauTableau.length; i++) {
+        console.log(`Tache ${i+1}: ${monNouveauTableau [i]}`);
+        
+    }
+    
+};
+
+afficherTaches()
+
+
+
+
 
 
 
