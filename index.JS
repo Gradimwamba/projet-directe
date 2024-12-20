@@ -97,6 +97,31 @@ function afficherTaches() {
 
 afficherTaches()
 
+//Utiliser Math pour générer un nombre aléatoire
+function getRandom(min, max){
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor (Math.random() * (max-min)) + min;
+};
+
+getRandom()
+
+
+//Vérifier si une tâche est terminée
+
+let tacheTerminée = true;
+
+if (tacheTerminée) {
+    console.log("Tache terminée");   
+} else {
+    console.log("Tache non terminée");    
+};
+
+//Afficher la date actuelle
+let dateACtuelle = new Date(2024, 20);
+console.log(dateACtuelle);
+
+
 
 
 
